@@ -24,11 +24,20 @@ jobs:
     - name: Setup Gradle
       uses: gradle/actions/setup-gradle@v4
       
+    - name: Make gradlew executable
+      working-directory: ./Donut-Algorithm
+      run: chmod +x gradlew && ls -la gradlew
+      
     - name: Build with Gradle
       working-directory: ./Donut-Algorithm
-      run: chmod +x gradlew && ./gradlew build
+      run: ./gradlew build --stacktrace --info --no-daemon 2>&1 | tail -100
+      
+    - name: List build output
+      working-directory: ./Donut-Algorithm
+      run: ls -la build/libs/ 2>/dev/null || echo "No build/libs directory"
       
     - name: Upload JAR artifact
+      if: success()
       uses: actions/upload-artifact@v4
       with:
         name: donut-algorithm-mod
