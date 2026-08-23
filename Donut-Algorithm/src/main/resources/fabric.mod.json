@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "donut_flip_scanner",
+  "version": "${version}",
+  "name": "Donut Algorithm",
+  "description": "A client-side trading dashboard with robust market statistics, conservative evaluations, explainable confidence, and neutral anomaly protection.",
+  "authors": [
+    "Donut Algorithm contributors"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.donutflipscanner.DonutFlipScannerClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

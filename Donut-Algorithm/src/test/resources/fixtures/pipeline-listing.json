@@ -1,0 +1,18 @@
+{
+  "status": 200,
+  "result": [
+    {
+      "item": {
+        "id": "minecraft:netherite_ingot",
+        "count": 1,
+        "display_name": "Netherite Ingot",
+        "lore": [],
+        "enchants": {"enchantments": {"levels": {}}},
+        "contents": []
+      },
+      "price": 50,
+      "seller": {"name": "ListingSeller", "uuid": "listing-seller-uuid"},
+      "time_left": 120
+    }
+  ]
+}
