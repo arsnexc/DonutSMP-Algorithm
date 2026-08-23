@@ -1,0 +1,18 @@
+{
+  "status": 200,
+  "result": [
+    {
+      "item": {
+        "id": "minecraft:netherite_ingot",
+        "count": "4",
+        "display_name": "Netherite Ingot"
+      },
+      "price": "20800000",
+      "seller": {
+        "name": "HistoricalSeller",
+        "uuid": "d9428888-122b-11e1-b85c-61cd3cbb3210"
+      },
+      "unixMillisDateSold": "1735689600000"
+    }
+  ]
+}

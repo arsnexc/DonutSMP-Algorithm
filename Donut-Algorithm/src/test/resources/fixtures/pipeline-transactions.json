@@ -1,0 +1,17 @@
+{
+  "status": 200,
+  "result": [
+    {"item":{"id":"minecraft:netherite_ingot","count":1,"lore":[],"contents":[]},"price":99,"seller":{"name":"Seller01","uuid":"seller-01"},"unixMillisDateSold":1785758340000},
+    {"item":{"id":"minecraft:netherite_ingot","count":1,"lore":[],"contents":[]},"price":100,"seller":{"name":"Seller02","uuid":"seller-02"},"unixMillisDateSold":1785758280000},
+    {"item":{"id":"minecraft:netherite_ingot","count":1,"lore":[],"contents":[]},"price":101,"seller":{"name":"Seller03","uuid":"seller-03"},"unixMillisDateSold":1785758220000},
+    {"item":{"id":"minecraft:netherite_ingot","count":1,"lore":[],"contents":[]},"price":99,"seller":{"name":"Seller04","uuid":"seller-04"},"unixMillisDateSold":1785758160000},
+    {"item":{"id":"minecraft:netherite_ingot","count":1,"lore":[],"contents":[]},"price":100,"seller":{"name":"Seller05","uuid":"seller-05"},"unixMillisDateSold":1785758100000},
+    {"item":{"id":"minecraft:netherite_ingot","count":1,"lore":[],"contents":[]},"price":101,"seller":{"name":"Seller06","uuid":"seller-06"},"unixMillisDateSold":1785758040000},
+    {"item":{"id":"minecraft:netherite_ingot","count":1,"lore":[],"contents":[]},"price":99,"seller":{"name":"Seller07","uuid":"seller-07"},"unixMillisDateSold":1785757980000},
+    {"item":{"id":"minecraft:netherite_ingot","count":1,"lore":[],"contents":[]},"price":100,"seller":{"name":"Seller08","uuid":"seller-08"},"unixMillisDateSold":1785757920000},
+    {"item":{"id":"minecraft:netherite_ingot","count":1,"lore":[],"contents":[]},"price":101,"seller":{"name":"Seller09","uuid":"seller-09"},"unixMillisDateSold":1785757860000},
+    {"item":{"id":"minecraft:netherite_ingot","count":1,"lore":[],"contents":[]},"price":99,"seller":{"name":"Seller10","uuid":"seller-10"},"unixMillisDateSold":1785757800000},
+    {"item":{"id":"minecraft:netherite_ingot","count":1,"lore":[],"contents":[]},"price":100,"seller":{"name":"Seller11","uuid":"seller-11"},"unixMillisDateSold":1785757740000},
+    {"item":{"id":"minecraft:netherite_ingot","count":1,"lore":[],"contents":[]},"price":101,"seller":{"name":"Seller12","uuid":"seller-12"},"unixMillisDateSold":1785757680000}
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "status": 200,
+  "result": [
+    {
+      "item": {
+        "id": "minecraft:netherite_ingot",
+        "count": 4,
+        "display_name": "",
+        "lore": [],
+        "enchants": {
+          "enchantments": {
+            "levels": {}
+          },
+          "trim": {
+            "material": "",
+            "pattern": ""
+          }
+        },
+        "contents": []
+      },
+      "price": 14200000,
+      "seller": {
+        "name": "FixtureSeller",
+        "uuid": "123e4567-e89b-12d3-a456-426614174000"
+      },
+      "time_left": 3599
+    }
+  ]
+}

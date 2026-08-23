@@ -1,0 +1,11 @@
+{
+  "status": "200",
+  "result": [
+    {
+      "item": {
+        "id": "minecraft:emerald"
+      },
+      "price": "950"
+    }
+  ]
+}

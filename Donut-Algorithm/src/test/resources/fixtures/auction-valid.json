@@ -1,0 +1,28 @@
+{
+  "status": 200,
+  "result": [
+    {
+      "item": {
+        "id": "minecraft:diamond_sword",
+        "count": 1,
+        "display_name": "Diamond Sword",
+        "lore": ["A carefully priced sword"],
+        "enchants": {
+          "enchantments": {
+            "levels": {
+              "minecraft:unbreaking": 3,
+              "minecraft:sharpness": 5
+            }
+          }
+        },
+        "contents": []
+      },
+      "price": 14200000,
+      "seller": {
+        "name": "MockSeller",
+        "uuid": "123e4567-e89b-12d3-a456-426614174000"
+      },
+      "time_left": 3599
+    }
+  ]
+}
