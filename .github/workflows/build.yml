@@ -21,33 +21,18 @@ jobs:
         java-version: '21'
         distribution: 'temurin'
         
-    - name: Check Java version
-      run: java -version && javac -version
+    - name: Setup Gradle
+      uses: gradle/actions/setup-gradle@v4
       
-    - name: List project structure
-      run: ls -la Donut-Algorithm/
-      
-    - name: Check gradle wrapper
-      working-directory: ./Donut-Algorithm
-      run: |
-        ls -la gradlew gradle/wrapper/
-        cat gradle/wrapper/gradle-wrapper.properties
-        
-    - name: Build with Gradle (verbose)
+    - name: Build with Gradle
       working-directory: ./Donut-Algorithm
       run: |
         chmod +x gradlew
-        ./gradlew build --stacktrace 2>&1 | tee build.log
-        echo "=== BUILD EXIT CODE: $? ==="
-        echo "=== LAST 200 LINES ==="
-        tail -200 build.log
+        ./gradlew build --no-daemon -Porg.gradle.dependency.verification=off 2>&1 | tail -50
         
-    - name: Check build directory
-      if: always()
+    - name: List build output
       working-directory: ./Donut-Algorithm
-      run: |
-        echo "=== Build directory contents ==="
-        find build -type f 2>/dev/null | head -50 || echo "No build directory"
+      run: ls -la build/libs/ 2>/dev/null || echo "No JAR found"
         
     - name: Upload JAR artifact
       if: success()
@@ -56,11 +41,3 @@ jobs:
         name: donut-algorithm-mod
         path: Donut-Algorithm/build/libs/*.jar
         retention-days: 30
-        
-    - name: Upload build log
-      if: always()
-      uses: actions/upload-artifact@v4
-      with:
-        name: build-log
-        path: Donut-Algorithm/build.log
-        retention-days: 7
